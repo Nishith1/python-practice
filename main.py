@@ -1,3 +1,5 @@
+from random import normalvariate
+
 print("Hello World")
 
 # name = "Nishith"
@@ -318,7 +320,57 @@ print("Hello World")
 # print("Index of 4 : ", numbers.index(4))
 
 
+fruits = {"apple" ,"banana" , "cherry"}
 
+print(fruits)
+
+fruits.add("orange")
+
+print(fruits)
+
+fruits.update(["mango","kiwi"])
+
+print(fruits)
+
+fruits.remove("banana")
+
+print(fruits)
+
+fruits.discard("papaya")
+
+print(fruits)
+
+a = {1,2,3}
+b = {3,4,5}
+
+print(a|b)
+
+print(a & b)
+print(a-b)
+print(a^b)
+
+for fruit in fruits:
+    print(fruit)
+
+languages = {"Hindi","Telegu","Tamil","Malayalam","Bengali"}
+
+print(languages)
+
+languages.add("Kannada")
+languages.add("Punjabi")
+
+print(languages)
+
+languages.add("Hindi")
+
+print(languages)
+
+north = {"Hindi","Punjabi","Bengali"}
+south = {"Tamil","Telegu","Kannada"}
+
+print("Union : ",north | south)
+
+print("Common : ", north & south)
 
 
 
