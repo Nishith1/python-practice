@@ -198,19 +198,19 @@ print("Hello World")
 # num  = int(input("Enter a number : "))
 # print (f"Factorial of {num} = {factorial(num)}")
 
-def calculator(a,b,operator):
-    if operator == "+":
-        return a+b
-    elif operator == "-":
-        return b-a
-    elif operator == "*":
-        return a*b
-    elif operator == "/":
-        return b/a
-    else:
-        return "Invalid Operator"
-
-print(calculator(5,10,"+"))
+# def calculator(a,b,operator):
+#     if operator == "+":
+#         return a+b
+#     elif operator == "-":
+#         return b-a
+#     elif operator == "*":
+#         return a*b
+#     elif operator == "/":
+#         return b/a
+#     else:
+#         return "Invalid Operator"
+#
+# print(calculator(5,10,"+"))
 
 
 
