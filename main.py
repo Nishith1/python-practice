@@ -158,3 +158,60 @@ print("Hello World")
 # print(f"Factorial of {n} is: {result}")
 
 
+# def greet_user(name):
+#     print(f"Hi {name}, great to see you.")
+#
+# greet_user("Nishith")
+
+# def add(a,b):
+#     return a+b
+#
+# result = add(5,10)
+#
+# print("Sum : ",result)
+#
+# def greet(name = "friend"):
+#     print(f"Hello, {name}!")
+#
+#
+# greet()
+# greet("Nishith")
+
+# def multiply(a,b):
+#     return a*b;
+#
+# print("Product : ",multiply(5,10))
+
+# def greet(name):
+#     print(f"Hello {name}")
+# name = input("Please enter your name ")
+#
+# greet(name)
+
+
+# def factorial(n):
+#     result = 1
+#     for i in range(1,n+1):
+#         result *=i
+#     return result
+#
+# num  = int(input("Enter a number : "))
+# print (f"Factorial of {num} = {factorial(num)}")
+
+def calculator(a,b,operator):
+    if operator == "+":
+        return a+b
+    elif operator == "-":
+        return b-a
+    elif operator == "*":
+        return a*b
+    elif operator == "/":
+        return b/a
+    else:
+        return "Invalid Operator"
+
+print(calculator(5,10,"+"))
+
+
+
+
