@@ -43,7 +43,28 @@ print("Hello World")
 # bmi = weight / (height **2)
 # print(f"Your BMI is : {bmi: .2f}")
 
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+#
+# print(f"Sum: {a + b}")
+# print(f"Difference: {a - b}")
+# print(f"Product: {a * b}")
+# print(f"Quotient: {a / b}")
+# print(f"Remainder: {a % b}")
 
+# age = int(input("enter your age : "))
+# if age>=18:
+#     print("You are eligible to Vote")
+# else:
+#     print("You are not eligible to Vote")
 
+# age = int(input("Enter your age:"))
+# citizen = input("Are you and Indian citizen ? (yes/no) : ")
+#
+# if age >=18 and citizen.lower() == "yes":
+#     print("You are eligible to vote in India.")
+#
+# else:
+#     print("Not eligible to Vote in India")
 
 
