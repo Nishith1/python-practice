@@ -212,6 +212,114 @@ print("Hello World")
 #
 # print(calculator(5,10,"+"))
 
+# fruits = ["apple" , "banana", "cherry"]
+#
+# print(fruits[0])
+#
+# print(fruits[1])
+#
+# fruits[1] = "mango"
+#
+# print(fruits)
+#
+# print(fruits[-1])
+# print(fruits[-2])
+#
+# fruits.append("orange")
+#
+#
+# fruits.insert(1,"grapes")
+#
+# fruits.remove("mango")
+# print(fruits)
+# popped = fruits.pop()
+#
+# print(popped)
+# print(fruits)
+#
+# for fruit in fruits:
+#     print(fruit)
+#
+# if "apple" in fruits:
+#     print("apple is present in fruits")
+#
+# print(len(fruits))
+#
+# fruits.sort()
+#
+# print(fruits)
+#
+# fruits.reverse()
+# print(fruits)
+#
+# numbers = [1,2,3,4,5,6]
+#
+# print(numbers[1:4])
+#
+# print(numbers[:3])
+#
+# print(numbers[::2])
+#
+# cities = ["Delhi" , "Hyderabad", "Mumbai", "Chennai" , "Kolkata"]
+#
+# print("Cities : ",cities)
+#
+# cities.append("Pune")
+# cities.append("Bangalore")
+#
+# print("Cities : ",cities)
+#
+# cities.sort()
+#
+# print("Cities : ",cities)
+#
+# print("Top 3 Cities", cities[:3])
+#
+# nums = [1,2,3,4,5,6,7]
+#
+# print("Count of 2 : ", nums.count(2))
+#
+#
+# colors = ("red","green","blue")
+#
+# single = ("single",)
+#
+# print(colors)
+# print(single)
+#
+# print(colors[0])
+# print(colors[-1])
+#
+# # colors[1] = "pink"
+#
+# for color in colors:
+#     print(color)
+#
+# print(colors.count("red"))
+#
+# print(colors.index("blue"))
+#
+# states = ("Telangana","Maharashtra","Kerala","Assam")
+#
+# print("States : ",states)
+#
+# print("Second State : ", states[1])
+#
+# print("Last State : ", states[-1])
+#
+# for state in states:
+#     print("Welcome to : ",state)
+#
+#
+# numbers = (1,2,3,4,5)
+#
+# print("Count of 2 : ",numbers.count(2))
+#
+# print("Index of 4 : ", numbers.index(4))
+
+
+
+
 
 
 
