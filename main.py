@@ -119,3 +119,42 @@ print("Hello World")
 # else:
 #     print("Password accepted")
 
+# for i in range(5):
+#     print(i)
+
+# count = 0
+# while count <=5:
+#     print(count)
+#     count+=1
+
+# for i in range(10):
+#     if i == 5:
+#         break  # exit the loop
+#     if i % 2 == 0:
+#         continue  # skip even numbers
+#     print(i)
+
+# for i in range(1,11):
+#     print(i)
+
+# n = int(input("Enter a number: "))
+# total = 0
+# for i in range(1,n+1):
+#     total = total +i
+# print (f"Sum of first {n} numbers is: {total}")
+
+# num = int(input("Enter a number: "))
+# for i in range (1,11):
+#     print(f"{num} X {i} = {num * i}")
+
+# n = int(input("Enter a number: "))
+# result  = 1
+# i = 1
+#
+# while i<=n:
+#     result *= i
+#     i+=1
+#
+# print(f"Factorial of {n} is: {result}")
+
+
