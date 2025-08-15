@@ -320,57 +320,111 @@ print("Hello World")
 # print("Index of 4 : ", numbers.index(4))
 
 
-fruits = {"apple" ,"banana" , "cherry"}
+# fruits = {"apple" ,"banana" , "cherry"}
+#
+# print(fruits)
+#
+# fruits.add("orange")
+#
+# print(fruits)
+#
+# fruits.update(["mango","kiwi"])
+#
+# print(fruits)
+#
+# fruits.remove("banana")
+#
+# print(fruits)
+#
+# fruits.discard("papaya")
+#
+# print(fruits)
+#
+# a = {1,2,3}
+# b = {3,4,5}
+#
+# print(a|b)
+#
+# print(a & b)
+# print(a-b)
+# print(a^b)
+#
+# for fruit in fruits:
+#     print(fruit)
+#
+# languages = {"Hindi","Telegu","Tamil","Malayalam","Bengali"}
+#
+# print(languages)
+#
+# languages.add("Kannada")
+# languages.add("Punjabi")
+#
+# print(languages)
+#
+# languages.add("Hindi")
+#
+# print(languages)
+#
+# north = {"Hindi","Punjabi","Bengali"}
+# south = {"Tamil","Telegu","Kannada"}
+#
+# print("Union : ",north | south)
+#
+# print("Common : ", north & south)
 
-print(fruits)
+person = {"name" : "Nishith",
+          "age": 36,
+          "city":"Hyderabad"}
 
-fruits.add("orange")
+print(person)
 
-print(fruits)
+print(person["name"])
 
-fruits.update(["mango","kiwi"])
+person["age"] = 37
+person["profession"] = "Engineer"
 
-print(fruits)
+print(person)
 
-fruits.remove("banana")
+print(person.get("name"))
+print(person.get("city"))
 
-print(fruits)
+print(person.get("country"),"India")
 
-fruits.discard("papaya")
+person.pop("city")
 
-print(fruits)
+print(person)
 
-a = {1,2,3}
-b = {3,4,5}
+del person["age"]
 
-print(a|b)
+print(person)
 
-print(a & b)
-print(a-b)
-print(a^b)
+for key, value in person.items():
+    print(key, ">", value)
 
-for fruit in fruits:
-    print(fruit)
+keys = person.keys()
+values = person.values()
+items = person.items()
 
-languages = {"Hindi","Telegu","Tamil","Malayalam","Bengali"}
+print(keys)
+print(values)
+print(items)
 
-print(languages)
 
-languages.add("Kannada")
-languages.add("Punjabi")
+student = {"name":"Aarav",
+           "roll_no":25,
+           "grade":"A"}
 
-print(languages)
+print(student)
 
-languages.add("Hindi")
+student["city"] = "Delhi"
+student["marks"]  = 92
+print(student)
 
-print(languages)
+for key, value in student.items():
+    print(f"{key}:{value}")
 
-north = {"Hindi","Punjabi","Bengali"}
-south = {"Tamil","Telegu","Kannada"}
+print(student.get("section","N/A"))
 
-print("Union : ",north | south)
-
-print("Common : ", north & south)
 
 
 
