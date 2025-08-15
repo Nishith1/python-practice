@@ -67,4 +67,55 @@ print("Hello World")
 # else:
 #     print("Not eligible to Vote in India")
 
+# x = int(input("Enter a number: "))
+
+# if x > 0:
+#     print("Positive number")
+# elif x == 0:
+#     print("Zero")
+# else:
+#     print("Negative number")
+
+
+# score = int(input("Enter your score (0–100): "))
+#
+# if score >= 90:
+#     print("Grade: A")
+# elif score >= 80:
+#     print("Grade: B")
+# elif score >= 70:
+#     print("Grade: C")
+# elif score >= 60:
+#     print("Grade: D")
+# else:
+#     print("Grade: F")
+
+
+# age = int(input("Enter your age: "))
+# citizenship = input("Are you an Indian citizen? (yes/no): ")
+#
+# if age >= 18:
+#     if citizenship.lower() == "yes":
+#         print("You can vote.")
+#     else:
+#         print("You must be a citizen to vote.")
+# else:
+#     print("You must be at least 18 to vote.")
+
+
+# num = int(input("Enter a number: "))
+#
+# if num % 2 == 0:
+#     print("Even number")
+# else:
+#     print("Odd number")
+
+# password = input("Enter your password: ")
+#
+# if len(password) < 6:
+#     print("Too short")
+# elif password == "123456":
+#     print("Too easy. Try a stronger one.")
+# else:
+#     print("Password accepted")
 
