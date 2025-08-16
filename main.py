@@ -1,5 +1,9 @@
-from collections.abc import async_generator
-from random import normalvariate
+import math
+import random
+
+import mytools
+from utils import greet as g
+from utils import add as a
 
 print("Hello World")
 
@@ -551,6 +555,26 @@ print("Hello World")
 #     print("Something went wrong.")
 # finally:
 #     print("Closing resource.")
+
+# print(math.sqrt(25))
+#
+# print(math.pi)
+#
+# print(g("Nishith"))
+#
+# print("Sum : ",a(5,7))
+
+# print(mytools.square(5))
+#
+# print(mytools.is_even(34))
+#
+# num = random.randint(1,10)
+#
+# print(f"Random number : {num}")
+
+
+
+
 
 
 
