@@ -372,58 +372,58 @@ print("Hello World")
 #
 # print("Common : ", north & south)
 
-person = {"name" : "Nishith",
-          "age": 36,
-          "city":"Hyderabad"}
-
-print(person)
-
-print(person["name"])
-
-person["age"] = 37
-person["profession"] = "Engineer"
-
-print(person)
-
-print(person.get("name"))
-print(person.get("city"))
-
-print(person.get("country"),"India")
-
-person.pop("city")
-
-print(person)
-
-del person["age"]
-
-print(person)
-
-for key, value in person.items():
-    print(key, ">", value)
-
-keys = person.keys()
-values = person.values()
-items = person.items()
-
-print(keys)
-print(values)
-print(items)
-
-
-student = {"name":"Aarav",
-           "roll_no":25,
-           "grade":"A"}
-
-print(student)
-
-student["city"] = "Delhi"
-student["marks"]  = 92
-print(student)
-
-for key, value in student.items():
-    print(f"{key}:{value}")
-
-print(student.get("section","N/A"))
+# person = {"name" : "Nishith",
+#           "age": 36,
+#           "city":"Hyderabad"}
+#
+# print(person)
+#
+# print(person["name"])
+#
+# person["age"] = 37
+# person["profession"] = "Engineer"
+#
+# print(person)
+#
+# print(person.get("name"))
+# print(person.get("city"))
+#
+# print(person.get("country"),"India")
+#
+# person.pop("city")
+#
+# print(person)
+#
+# del person["age"]
+#
+# print(person)
+#
+# for key, value in person.items():
+#     print(key, ">", value)
+#
+# keys = person.keys()
+# values = person.values()
+# items = person.items()
+#
+# print(keys)
+# print(values)
+# print(items)
+#
+#
+# student = {"name":"Aarav",
+#            "roll_no":25,
+#            "grade":"A"}
+#
+# print(student)
+#
+# student["city"] = "Delhi"
+# student["marks"]  = 92
+# print(student)
+#
+# for key, value in student.items():
+#     print(f"{key}:{value}")
+#
+# print(student.get("section","N/A"))
 
 
 
