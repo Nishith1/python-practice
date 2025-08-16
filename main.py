@@ -1,3 +1,4 @@
+from collections.abc import async_generator
 from random import normalvariate
 
 print("Hello World")
@@ -497,6 +498,59 @@ print("Hello World")
 # else:
 #     print("Not a Palindrome")
 
+# try:
+#     num = int(input("Enter a number : "))
+#     print("You entered: ",num)
+# except ValueError:
+#     print("This is not a valid number.")
+#
+# try:
+#     result = 10/0
+#
+# except ZeroDivisionError:
+#     print("You can't divide by zero.")
+#
+# try:
+#     x = int(input("Enter number: "))
+# except ValueError:
+#     print("Invalid number!")
+# else:
+#     print(f"{x}*2 = {x*2}")
+# finally:
+#     print("This always runs, even if error occurs.")
+
+
+# age = int(input("Enter age: "))
+# if age<0:
+#     raise ValueError("Age cannot be negative!")
+# else:
+#     print("Age is : ",age)
+
+# try:
+#     number = int(input("Enter a number"))
+#     print("Square: ",number**2)
+# except ValueError:
+#     print("Please enter a valid number")
+
+# try:
+#     a = int(input("Enter a numerator: "))
+#     b = int(input("Enter denominator: "))
+#     print("Result : ", a/b)
+#
+# except ZeroDivisionError:
+#     print("Denominator cannot be zero.")
+#
+# except ValueError:
+#     print("Please enter valid numbers.")
+
+# try:
+#     print("Opening resource...")
+#     x = int(input("Enter a number: "))
+#     print("Double : ", x*2)
+# except:
+#     print("Something went wrong.")
+# finally:
+#     print("Closing resource.")
 
 
 
