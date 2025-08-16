@@ -425,6 +425,80 @@ print("Hello World")
 #
 # print(student.get("section","N/A"))
 
+# name = "Nishith"
+# greeting = 'Hello'
+# multinine = """This
+# is
+# multiline"""
+#
+# print(multinine)
+#
+# print("HELLO".lower())
+#
+# print("hi".upper())
+#
+# print(" hello ".split())
+#
+# print("abc".replace("a","x"))
+#
+# print("a,b,c".split(","))
+#
+# print(" ".join(["hi","there"]))
+#
+# print("hello".startswith("he"))
+#
+# print("hello".endswith("lo"))
+#
+# text = "Python"
+#
+# print(text[0])
+#
+# print(text[-1])
+#
+# print(text[1:4])
+#
+# print(text[:3])
+#
+# print(text[::-1])
+#
+# name = "Nishith"
+#
+# age = 36
+#
+# print(f"My name is {name} and I am {age} years old.")
+#
+# print("Line1\nLine2")
+#
+# print("Name\tAge")
+#
+# print("He said \"Hi\"")
+#
+# name = input("Enter your name: ")
+# print(f"Welcome, {name}!")
+#
+# text = input("Enter a word : ")
+# print("Reversed: ", text[::-1])
+#
+#
+# # Vowels in a sentence
+# text  = input("Enter a sentence: ")
+# vowels = "aeiouAEIOU"
+# count = 0
+# for char in text:
+#     if char in vowels:
+#         count+=1
+# print("Vowels count: ",count)
+#
+# # Check Palindrome
+#
+# word  = input("Enter a word : ")
+# if word == word[::-1]:
+#     print("Palindrome")
+# else:
+#     print("Not a Palindrome")
+
+
+
 
 
 
