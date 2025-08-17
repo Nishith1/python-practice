@@ -629,6 +629,36 @@ print("Hello World")
 #
 # print(matrix.T)
 
+# import pandas as pd
+#
+# data = {
+#     "name" : ["Alice", "Bob","Charlie"],
+#     "age" : [25,30,35]
+# }
+#
+# df = pd.DataFrame(data)
+#print(df)
+
+#print(df["name"])
+
+#print((df["age"]))
+
+#print(df.iloc[0])
+
+#print(df.loc[1,"age"])
+
+# df = pd.read_csv("basic_data.csv")
+#
+# print(df.describe())
+#
+# print(df.info)
+#
+# print(df.shape)
+#
+# adults = df[df["age"] > 30]
+# print(adults)
+
+
 
 
 
