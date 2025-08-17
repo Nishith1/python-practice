@@ -572,6 +572,39 @@ print("Hello World")
 #
 # print(f"Random number : {num}")
 
+# with open("data.txt", "r") as file:
+#     content = file.read()
+#     print(content)
+
+# with open("data.txt","r") as file:
+#     for line in file:
+#         print(line.strip())
+
+# try:
+#     with open("info.txt","r") as file:
+#         data  = file.read()
+#         print(data)
+#
+# except FileNotFoundError:
+#     print("File not Found")
+
+# with open("output.txt" , "a") as file:
+#     file.write("\n This will be added to the file")
+
+# with open("greetings.txt","w") as f:
+#     f.write("Hello Nishith!\n Welcome to Python File I/O.")
+#
+# with open("greetings.txt","r") as file:
+#     content = file.read()
+#     print("File Content : \n",content)
+#
+# with open("greetings.txt" ,"a") as file:
+#     file.write("\n This is an appended line")
+#
+# with open("greetings.txt", "r") as file:
+#     for line in file:
+#         print(line.strip())
+
 
 
 
