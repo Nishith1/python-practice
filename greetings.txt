@@ -1,0 +1,3 @@
+Hello Nishith!
+ Welcome to Python File I/O.
+ This is an appended line
