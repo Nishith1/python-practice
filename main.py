@@ -605,29 +605,29 @@ print("Hello World")
 #     for line in file:
 #         print(line.strip())
 
-import numpy as np
-
-arr = np.array([1,2,3])
-
-print(arr)
-
-matrix = np.array([[1,2],[3,4]])
-
-print(matrix)
-
-print(arr.shape)
-
-print(matrix.shape)
-
-print(matrix.dtype)
-
-print(arr+5)
-
-print(arr*2)
-
-print(matrix*2)
-
-print(matrix.T)
+# import numpy as np
+#
+# arr = np.array([1,2,3])
+#
+# print(arr)
+#
+# matrix = np.array([[1,2],[3,4]])
+#
+# print(matrix)
+#
+# print(arr.shape)
+#
+# print(matrix.shape)
+#
+# print(matrix.dtype)
+#
+# print(arr+5)
+#
+# print(arr*2)
+#
+# print(matrix*2)
+#
+# print(matrix.T)
 
 
 
